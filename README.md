@@ -11,7 +11,7 @@ Produce messages to and consume messages from [Confluent Cloud](https://www.conf
 
 ```shell
 $ cat $HOME/.ccloud/config
-bootstrap.servers=<BROKER ENDPOINT>
+bootstrap.servers=<BROKER_ENDPOINT>
 ssl.endpoint.identification.algorithm=https
 security.protocol=SASL_SSL
 sasl.mechanism=PLAIN
